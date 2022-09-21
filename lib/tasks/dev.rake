@@ -20,8 +20,6 @@ namespace :dev do
   desc "Adiciona o administrador padrão"
   task add_default_admin: :environment do
     Admin.create!(
-      first_name: 'Admin',
-      last_name: 'Admin',
       email: 'admin@admin.com',
       password: DEFAULT_PASSWORD,
       password_confirmation: DEFAULT_PASSWORD
@@ -32,8 +30,6 @@ namespace :dev do
   task add_extra_admins: :environment do
     10.times do |i|
       Admin.create!(
-        first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name,
         email: Faker::Internet.email,
         password: DEFAULT_PASSWORD,
         password_confirmation: DEFAULT_PASSWORD

@@ -17,7 +17,7 @@ Rails.application.routes.draw do
     root to: 'archives#index'
   end
   devise_for :users
-  devise_for :admins, skip: [:registrations]
+  devise_for :admins
  
   get 'inicio', to: 'site/welcome#index'
   get 'admin', to: 'admins_backoffice/welcome#index'

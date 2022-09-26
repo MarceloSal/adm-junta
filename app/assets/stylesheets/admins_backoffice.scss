@@ -3,16 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /*
-*= /require font-awesome
+*= require font-awesome
 *= require jquery-ui/themes/base/datepicker
 *= require jquery-ui/themes/base/theme
 *= require sb-admin-2.min
 */
 
-@import 'font_awesome5_webfont';
-$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
-@import '@fortawesome/fontawesome-free/scss/fontawesome';
-@import '@fortawesome/fontawesome-free/scss/brands';
-@import '@fortawesome/fontawesome-free/scss/solid';
-@import '@fortawesome/fontawesome-free/scss/regular';
-@import '@fortawesome/fontawesome-free/scss/v4-shims';

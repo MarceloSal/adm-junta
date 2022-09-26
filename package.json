@@ -2,7 +2,6 @@
   "name": "teste02",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.15.3",
     "@rails/webpacker": "5.4.3",
     "bootstrap": "4.3.1",
     "bootstrap-growl-ifightcrime": "^1.1.0",
@@ -24,5 +23,4 @@
   "devDependencies": {
     "webpack-dev-server": "^3"
   }
-  
 }

@@ -46,7 +46,8 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <%=link_to admins_backoffice_welcome_index_path, class:"nav-link" do%>
-                    <i class="fas fa-home "></i>
+                    <%# <i class="fas fa-home "></i> %>
+                    fa_icon('home')
                     <span>Início</span></a>
                 <%end%>
             </li>
@@ -61,7 +62,8 @@
 
             <li class="nav-item">
                 <%=link_to admins_backoffice_admins_path, class:"nav-link" do%>
-                    <i class="fas fa-users fa-tachometer-alt"></i>
+                    <%# <i class="fas fa-users fa-tachometer-alt"></i> %>
+                    fa_icon('users')
                     <span>Diáconos</span></a>
                 <%end%>
             </li>
@@ -71,7 +73,8 @@
 
             <li class="nav-item">
                 <%=link_to admins_backoffice_members_path, class:"nav-link" do%>
-                    <i class="fas fa-user fa-tachometer-alt"></i>
+                    <%# <i class="fas fa-user fa-tachometer-alt"></i> %>
+                    fa_icon('user')
                     <span>Membros</span></a>
                 <%end%>
             </li>
@@ -82,6 +85,7 @@
             <li class="nav-item">
                 <%=link_to admins_backoffice_archives_path, class:"nav-link" do%>
                     <i class=" fas fa-folder-open "></i>
+                    fa_icon('folder-open')
                     <span>Arquivos</span></a>
                 <%end%>
             </li>

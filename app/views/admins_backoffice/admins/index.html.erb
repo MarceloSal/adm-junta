@@ -27,7 +27,7 @@
         <tr>
             <%# <th>#</th> %>
             <th><%=translate_attribute(@admins, :first_name)%></th>
-            <th ><%=translate_attribute(@admins, :last_name)%></th>
+            <th class="hidding"><%=translate_attribute(@admins, :last_name)%></th>
             <th ><%=translate_attribute(@admins, :email)%></th>
             <th>
                 <%=link_to new_admins_backoffice_admin_path, class:"btn btn-success btn-circle" do%>

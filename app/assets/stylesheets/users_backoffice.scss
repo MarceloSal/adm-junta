@@ -5,19 +5,12 @@
 
 /*
 *= require bootstrap/dist/css/bootstrap.min
-
+*= require @fortawesome/fontawesome-free/css/fontawesome.min
 *= require nprogress/nprogress.css
 *= require malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar
 *= require custom.min
 */
-@import 'font_awesome5_webfont';
-$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
-@import '@fortawesome/fontawesome-free/scss/fontawesome';
-@import '@fortawesome/fontawesome-free/scss/brands';
-@import '@fortawesome/fontawesome-free/scss/solid';
-@import '@fortawesome/fontawesome-free/scss/regular';
-@import '@fortawesome/fontawesome-free/scss/v4-shims';
-    
+
     
 
    

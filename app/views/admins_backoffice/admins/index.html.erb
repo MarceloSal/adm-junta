@@ -28,7 +28,7 @@
             <%# <th>#</th> %>
             <th><%=translate_attribute(@admins, :first_name)%></th>
             <th class="hidding"><%=translate_attribute(@admins, :last_name)%></th>
-            <th ><%=translate_attribute(@admins, :email)%></th>
+            <th class="hidding"><%=translate_attribute(@admins, :email)%></th>
             <th>
                 <%=link_to new_admins_backoffice_admin_path, class:"btn btn-success btn-circle" do%>
                     <i class="fas fa-plus"></i>
@@ -42,7 +42,7 @@
                 <%# <td><%=admin.id%>
                 <td><%=admin.first_name%></td>
                 <td class="hidding"><%=admin.last_name%></td>
-                <td ><%=admin.email%></td>
+                <td class="hidding"><%=admin.email%></td>
                 <td style="width:120px">
                     <%=link_to edit_admins_backoffice_admin_path(admin), class:"btn btn-primary btn-circle" do%>
                         <i class="fas fa-edit"></i>

@@ -15,7 +15,7 @@
 
         <thead>
         <tr>
-            <th>#</th>
+            <%# <th>#</th> %>
             <th>Título</th>
             <th>Descrição</th>
             <th>Arquivo</th>
@@ -25,7 +25,7 @@
         
         <tbody>
             <tr> 
-                <th><%=@archive.id%></th>   
+                <%# <th><%=@archive.id</th>     %>
                 <th><%=@archive.title%></th>
                 <th><%= @archive.description %></th>
                 <th><%= link_to 'Download', @archive.file%></th>

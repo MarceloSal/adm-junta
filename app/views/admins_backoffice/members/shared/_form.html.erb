@@ -52,7 +52,7 @@
             <%=form.telephone_field :cell_phone, class:"form-control" %>
 
             <%=form.label :birthdate%>
-            <%=form.date_field :birthdate,  class:"form-control " %>
+            <%=form.date_field :birthdate,strftime("%d/%m/%Y"),  class:"form-control " %>
 
             <%=form.label :address%>
             <%=form.text_field :address, class:"form-control" %>
@@ -63,11 +63,11 @@
 
         <%end%>
         <!-- end form for validations -->
-        <script>
+        <%# <script>
         $(function(){
             $('.datepicker').datepicker();
         });
-    </script>
+    </script> %>
     </div>
 </div>
 </html>

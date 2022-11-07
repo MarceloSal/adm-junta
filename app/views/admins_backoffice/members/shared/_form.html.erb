@@ -52,7 +52,7 @@
             <%=form.telephone_field :cell_phone, class:"form-control" %>
 
             <%=form.label :birthdate%>
-            <%=form.text_field  :birthdate,  class:"form-control datepicker" %>
+            <%=form.text_field  :birthdate, value: l(@member.birthdate),  class:"form-control datepicker" %>
 
             <%=form.label :address%>
             <%=form.text_field :address, class:"form-control" %>

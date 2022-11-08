@@ -42,6 +42,7 @@ gem 'tty-spinner'
 gem 'faker'
 gem 'kaminari'
 gem 'kaminari-i18n'
+gem 'jquery_mask_rails' # more details at http://bit.ly/jquery-mask-gem
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

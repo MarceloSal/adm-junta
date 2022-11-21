@@ -55,7 +55,9 @@ locals: {action_message: t('messages.new', model: @member.model_name.human)}%>
             <%=form.telephone_field :cell_phone, class:"form-control" %>
 
             <%=form.label :birthdate%>
-            <%=form.text_field :birthdate,  class:"form-control datepicker" %>
+            <%=form.text_field :birthdate,  
+            value: (l(@member.birthdate) unless @member.birthdate.blank?),
+            class:"form-control datepicker" %>
 
             <%=form.label :address%>
             <%=form.text_field :address, class:"form-control" %>

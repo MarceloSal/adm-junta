@@ -42,7 +42,7 @@
                 <td><%=member.last_name%></td>
                 <td class="hidding"><%=member.email%></td>
                 <td class="hidding"><%=member.cell_phone%></td>
-                <td class="hidding"><%=member.birthdate%></td>
+                <td class="hidding"><%= (l(member.birthdate) unless member.birthdate.blank?)%></td>
                 <td class="hidding"><%=member.address%></td>
                 <td style="width:120px">
                     <%=link_to edit_admins_backoffice_member_path(member), class:"btn btn-primary btn-circle" do%>

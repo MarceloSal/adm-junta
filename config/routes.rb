@@ -13,8 +13,8 @@ Rails.application.routes.draw do
     get 'welcome/index' # Dashboard
     resources :admins # Administradores
     resources :members # Cadastro de Membros
-    resources :archives #arquivos
-    root to: 'archives#index'
+    # resources :archives #arquivos
+    # root to: 'archives#index'
   end
   devise_for :users
   devise_for :admins

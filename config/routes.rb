@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   namespace :admins_backoffice do
+    get 'site/index'
+  end
+  namespace :admins_backoffice do
     get 'members/index'
     
   end
